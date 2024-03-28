@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    /* width: 100%;
+    height: 100vh; */
+}
+
+/* .main{
+    margin: 0px;
+    width: 100%;
+} */
+/* .head{
+    
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+} */
+.nn {
+    background-image: url(Rectangle\ 3997.svg);
+
+    /* height: 60%; */
+}
+
+.main {
+
+    background-image: url(banner-1-dot\ 1.svg);
+}
+
+
+.right {
+    color: #010101;
+}
+
+.left {
+    font-size: 24px;
+    color: #010101;
+    font-weight: 500;
+    font-family: 'Poppins', 'Semibold';
+}
+
+.text1 {
+    font-size: 16px;
+}
+
+.btn1 {
+    height: 37px;
+    width: 110px;
+    background-color: #2F50F5;
+    border: 0px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn1:hover {
+    background-color: #42c8a7;
+}
+
+.wording {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.wording h1 {
+    font-size: 44px;
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 915px) {
+    .wording h1 {
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 29px;
+    }
+}
+
+.wording p {
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 18px;
+}
+
+.btn2 {
+    background-color: #202020;
+    border: 0px;
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+/* .sale{
+    text-align: center;
+    display: block;
+   display: flex;
+   flex-direction: column;
+
+} */
+.wording a {
+
+    color: #2f50f5;
+    /* padding-top: 20%; */
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wording a:hover {
+    color: grey;
+    text-decoration: none !important;
+}
+
+.wording img {
+    width: 100%;
+    height: auto;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(#42c8a7, #3369e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.part2 {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    /* padding-left: 1%;
+    padding-right: 1%; */
+    padding-top: 3%;
+}
+
+.sign1 {
+    /* padding-right: 25%; */
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* justify-items: center; */
+    flex-wrap: wrap;
+}
+
+.wording1 {
+    width: 400px;
+    padding-top: 5%;
+}
+
+/* .photo{
+    width: 0px;
+} */
+.wording1 h1 {
+    font-size: 44px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn3 {
+    background-color: #2f50f5;
+    border: 0px;
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn3:hover {
+    background-color: #42c8a7;
+}
+
+.sale2 {
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    flex-wrap: wrap;
+
+}
+
+.btn4 {
+    color: #42c8a7;
+    background-color: white;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.btn4:hover {
+    color: gray;
+}
+
+.plan {
+    padding-left: 27%;
+    padding-right: 27%;
+    /* text-align: center; */
+}
+
+@media screen and (max-width: 992px) {
+    .plan {
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+.plan h1 {
+    font-size: 34px;
+    font-weight: normal;
+    /* padding: 0% 10% 0% 10%; */
+
+}
+
+.plan p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.price1,
+.price2,
+.price3 {
+    width: 370px;
+    height: 480px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-weight: lighter;
+    box-shadow: 0px 5px 10px 0px rgba(87, 111, 188, .3);
+}
+
+.price {
+    margin-top: 8%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.value {
+    color: #42c8a7;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+/* .features{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+} */
+
+.numbering {
+    display: flex;
+    flex-direction: row;
+    padding-left: 9%;
+
+}
+
+.numbering p {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.pricing .btn3 {
+    margin-top: 4%;
+    width: 280px;
+}
+
+.heading2 {
+    text-align: center;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: space-between;
+}
+
+.r1 {
+    color: black;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: .2px solid #e5e5e5;
+    border-radius: 10px;
+}
+
+.r1 p {
+    font-weight: 500;
+    margin-top: 13.5px;
+    margin-left: 2%;
+}
+
+.r1 p:hover {
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #2f50f5;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: 600;
+}
+
+/* .para{
+    width:30%;
+} */
+.qlinkmain,
+.para {
+    font-weight: lighter;
+}
+
+.qlinkmain p:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.hake {
+    width: 30%;
+    margin-left: 0px;
+}
+
+/* .social-links{
+    justify-content:space-between;
+} */
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+@media(max-width: 780px) {
+    
+
+    .navdiv {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hake {
+        width: 100%;
+    }
+
+    .end {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .pricing{
+        padding-left:2% ;
+        padding-right: 2%;
+    }
+   .wording1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 29px;
+   }
+}
